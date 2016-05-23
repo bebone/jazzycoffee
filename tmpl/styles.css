@@ -2,315 +2,248 @@
 Vous pouvez réutiliser ce fichier CSS à votre convenance. Bootstrap 3 Needed.
 */
 
+
 /* Importation des Polices */
+
 @import url(https://fonts.googleapis.com/css?family=Open+Sans:400,300);
 @import url(https://fonts.googleapis.com/css?family=Muli:300);
-
-
-*
-{
+* {
     margin: 0px;
     padding: 0px;
 }
 
-html, body
-{
-     height: 100%;
+html,
+body {
+    height: 100%;
 }
 
-
-body
-{
-   color:#FFF;
-  font-family:'Open Sans', sans-serif;
-  background-color: #000;
-  min-height: 100%;
-  margin: 0;
-  padding: 0;
-    
+body {
+    color: #FFF;
+    font-family: 'Open Sans', sans-serif;
+    background-color: #000;
+    min-height: 100%;
+    margin: 0;
+    padding: 0;
 }
 
-h2, h3,h4, h5
-{
-   
+h2,
+h3,
+h4,
+h5 {
     font-family: 'Muli', sans-serif;
-    color:#9700DC;
+    color: #9700DC;
 }
 
-h3
-{
+h3 {
     background: #FFF;
 }
 
-a
-{
-    color:#FFF;
+a {
+    color: #FFF;
     transition-duration: 1s;
     text-decoration: underline;
 }
 
-a:hover
-{
-    color:#9700DC;
+a:hover {
+    color: #9700DC;
 }
 
-ul
-{
-    list-style:none;
+ul {
+    list-style: none;
 }
 
-
-.row
-{
+.row {
     margin: 0;
 }
 
-
-.carte h3
-{
-    font-weight:bold;
-    padding:5px 0 5px 10px;
+.carte h3 {
+    font-weight: bold;
+    padding: 5px 0 5px 10px;
 }
 
-
-
-
-.team, .bloc-3
-{
-    text-align:center;
-    min-height:100vh;
+.team,
+.bloc-3 {
+    text-align: center;
+    min-height: 100vh;
 }
 
-#logo
-{
-    position:absolute;
-    z-index:55;
-    background:rgba(255,255,255, 0.7);
-    padding:5px 5px 5px 5px;
-    margin-top:5px;
-}
-
-
-
-#menu
-{
-	margin-top:15px;
+#logo {
     position: absolute;
-    margin-left:58%;
-    z-index:55;
+    z-index: 55;
+    background: rgba(255, 255, 255, 0.7);
+    padding: 5px 5px 5px 5px;
+    margin-top: 5px;
 }
 
-#menu ul
-{
-	position:relative;
-	float:right;
-    background:#9700DC;
-
+#menu {
+    margin-top: 15px;
+    position: absolute;
+    margin-left: 58%;
+    z-index: 55;
 }
 
-#menu ul a
-{
-	display:block;
-	color:#333;
-	text-decoration:none;
-	font-size:12px;
-	line-height:32px;
-	padding:0 15px;
-    color:#FFF;
+#menu ul {
+    position: relative;
+    float: right;
+    background: #9700DC;
 }
 
-#menu ul li
-{
-	position:relative;
-	float:left;
-	margin:0;
-	padding:0;
+#menu ul a {
+    display: block;
+    color: #333;
+    text-decoration: none;
+    font-size: 12px;
+    line-height: 32px;
+    padding: 0 15px;
+    color: #FFF;
 }
 
-
-
-#menu ul li:hover
-{
-	background:#333;
+#menu ul li {
+    position: relative;
+    float: left;
+    margin: 0;
+    padding: 0;
 }
 
-#menu ul ul li:hover
-{
-	background:#9700DC;
+#menu ul li:hover {
+    background: #333;
 }
 
-#menu ul ul
-{
-	display:none;
-	position:absolute;
-	top:100%;
-	left:0;
-	background:#333;
+#menu ul ul li:hover {
+    background: #9700DC;
 }
 
-#menu ul ul li
-{
-	float:none;
+#menu ul ul {
+    display: none;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    background: #333;
 }
 
-#menu ul ul a
-{
-	line-height:120%;
-	padding:10px 15px; 
+#menu ul ul li {
+    float: none;
 }
 
-
-
-#menu ul li:hover > ul
-{
-	display:block
+#menu ul ul a {
+    line-height: 120%;
+    padding: 10px 15px;
 }
 
-
-
-#part1
-{
-    position:relative;
-    z-index:50;
-    background:url("../static/images/background.jpg");
-    background-size:cover;
+#menu ul li:hover > ul {
+    display: block
 }
 
-
-.container
-{
-    width:100%;
-    padding:0;
+#part1 {
+    position: relative;
+    z-index: 50;
+    background: url("../static/images/background.jpg");
+    background-size: cover;
 }
 
-
-.bloc-3-title
-{
-    margin-bottom:50px;
+.container {
+    width: 100%;
+    padding: 0;
 }
 
-.bloc-3-title-img
-{
-    border-radius:50%;
-    width:80%;
-    height:80%;
-    display:block;
-    margin-bottom:50px;
-    margin-left:auto;
-    margin-right:auto;
+.bloc-3-title {
+    margin-bottom: 50px;
 }
 
-.separation
-{
-    border-bottom:2px solid #9700DC;
-    margin:50px;  
+.bloc-3-title-img {
+    border-radius: 50%;
+    width: 80%;
+    height: 80%;
+    display: block;
+    margin-bottom: 50px;
+    margin-left: auto;
+    margin-right: auto;
 }
 
+.separation {
+    border-bottom: 2px solid #9700DC;
+    margin: 50px;
+}
 
-.prix
-{
+.prix {
     display: inline;
 }
 
-.avert
-{
+.avert {
     font-style: italic;
-    font-size:11px;
+    font-size: 11px;
 }
 
-
-
-
-[class*="col-"]
-{
-  background-color: #f3f3f3;
-  color:#333;
+[class*="col-"] {
+    background-color: #f3f3f3;
+    color: #333;
 }
 
-
-#accueil h1
-{
-     font-size:4em;
-     font-family:'Open Sans';
-     font-weight:300;
-     color:#333;
+#accueil h1 {
+    font-size: 4em;
+    font-family: 'Open Sans';
+    font-weight: 300;
+    color: #333;
 }
 
-
-
-.scroll
-{
-    color:#9700DC;
+.scroll {
+    color: #9700DC;
 }
 
-#accueil
-{
-    display:none;
-    text-align:center;
-    z-index:20;
-    position:absolute;
-    margin-left:30%;
-    margin-top:25%;
-    color:#9700DC;
-    background:rgba(255,255,255, 0.7);
-    padding:10px;
+#accueil {
+    display: none;
+    text-align: center;
+    z-index: 20;
+    position: absolute;
+    margin-left: 30%;
+    margin-top: 25%;
+    color: #9700DC;
+    background: rgba(255, 255, 255, 0.7);
+    padding: 10px;
 }
 
-
-.content-home, .content
-{
-  min-height: 100vh;
-  color:#FFF;
-  position:relative;
-  
+.content-home,
+.content {
+    min-height: 100vh;
+    color: #FFF;
+    position: relative;
 }
 
-
-.content h1
-{
-    margin-top:10%;
+.content h1 {
+    margin-top: 10%;
 }
 
-.content
-{
+.content {
     margin: 30px 30px 30px 30px;
 }
 
-
-a:focus
-{
-    color:#9700DC;
+a:focus {
+    color: #9700DC;
 }
 
-
-.content a:hover
-{
-    text-decoration:underline;
+.content a:hover {
+    text-decoration: underline;
 }
 
-#footer
-{
-    background-color:#333;
-    text-align:center;
-    color:#FFF;
-    padding-top:5px;
+#footer {
+    background-color: #333;
+    text-align: center;
+    color: #FFF;
+    padding-top: 5px;
 }
 
-.social
-{
-    margin:auto; 
+.social {
+    margin: auto;
 }
 
-.social a
-{
-    margin-right:25px;
+.social a {
+    margin-right: 25px;
 }
 
-.content img
-{
-    display:block;
-    margin-top:5%;
-    box-shadow:1px 1px 30px 0px #FFF;
-    margin-left:auto;
-    margin-right:auto;
+.content img {
+    display: block;
+    margin-top: 5%;
+    box-shadow: 1px 1px 30px 0px #FFF;
+    margin-left: auto;
+    margin-right: auto;
 }
