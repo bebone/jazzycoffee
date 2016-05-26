@@ -48,6 +48,10 @@ a:hover {
     color: #9700DC;
 }
 
+a:focus {
+    color: #9700DC;
+}
+
 ul {
     list-style: none;
 }
@@ -62,24 +66,36 @@ ul {
 }
 
 .team,
-.bloc-3 {
+.bloc-3,
+.contact {
     text-align: center;
     min-height: 100vh;
 }
 
+iframe {
+    height: 350px;
+    width: 350px;
+    margin-top: 60px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
 #logo {
-    position: absolute;
+    display: inline;
     z-index: 55;
     background: rgba(255, 255, 255, 0.7);
     padding: 5px 5px 5px 5px;
     margin-top: 5px;
+    float: left;
+    clear: both;
 }
 
 #menu {
     margin-top: 15px;
-    position: absolute;
     margin-left: 58%;
     z-index: 55;
+    display: inline;
 }
 
 #menu ul {
@@ -134,13 +150,6 @@ ul {
     display: block
 }
 
-#part1 {
-    position: relative;
-    z-index: 50;
-    background: url("../static/images/background.jpg");
-    background-size: cover;
-}
-
 .container {
     width: 100%;
     padding: 0;
@@ -191,38 +200,62 @@ ul {
 }
 
 #accueil {
-    display: none;
     text-align: center;
     z-index: 20;
-    position: absolute;
-    margin-left: 30%;
-    margin-top: 25%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20%;
     color: #9700DC;
     background: rgba(255, 255, 255, 0.7);
     padding: 10px;
+    display: none;
 }
 
 .content-home,
 .content {
     min-height: 100vh;
     color: #FFF;
-    position: relative;
 }
 
-.content h1 {
-    margin-top: 10%;
+.content-home {
+    background: url("../../static/images/background.jpg");
+    background-size: cover;
 }
 
 .content {
-    margin: 30px 30px 30px 30px;
-}
-
-a:focus {
-    color: #9700DC;
+    clear: both;
+    padding: 20px;
 }
 
 .content a:hover {
     text-decoration: underline;
+}
+
+.event {
+    margin-bottom: 25px;
+    border-bottom: solid 1px #FFF;
+}
+
+.date-event {
+    font-weight: 700;
+    font-size: 20px;
+    color: #9700DC;
+}
+
+.btn-primary {
+    background-color: #9700DC;
+    border-color: #9700DC;
+}
+
+.btn-primary:hover {
+    background-color: #59117b;
+    border-color: #59117b;
+}
+
+#linux {
+    display: inline;
+    margin: 0;
+    box-shadow: none;
 }
 
 #footer {
@@ -230,14 +263,6 @@ a:focus {
     text-align: center;
     color: #FFF;
     padding-top: 5px;
-}
-
-.social {
-    margin: auto;
-}
-
-.social a {
-    margin-right: 25px;
 }
 
 .content img {
